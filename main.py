@@ -5,7 +5,7 @@ with col1:
     st.image("006 images/photo.JPG",width=300)
 with col2:
     st.title("Umair Ahsan")
-    content= """I am a dynamic professional working at the intersection of digital strategy,
+    content1= """I am a dynamic professional working at the intersection of digital strategy,
      visual design, and technology. With a solid foundation in digital marketing and a
       background in computer science, I specialize in creating impactful online
        experiences—from high-converting social media campaigns to functional
@@ -13,4 +13,6 @@ with col2:
          meets creativity. Whether I am analyzing network concepts, building intelligent
           algorithms, designing a fresh visual layout, or optimizing an ad campaign,
            my goal is always the same: to deliver results that matter."""
-    st.info(content)
+    st.info(content1)
+content2="""Below you can find some apps i built in python.So feel easy to contact me."""
+st.write(content2)
